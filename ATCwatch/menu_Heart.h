@@ -28,7 +28,7 @@ class HeartScreen : public Screen
 
       label = lv_label_create(lv_scr_act(), NULL);
       lv_label_set_text(label, "Heartrate");
-      lv_obj_align(label, NULL, LV_ALIGN_IN_TOP_LEFT, 0, 0);
+      lv_obj_align(label, NULL, LV_ALIGN_IN_TOP_MID, 0, 0);
 
       set_gray_screen_style(&lv_font_roboto_28);
       

@@ -25,7 +25,7 @@ class SettingsScreen : public Screen
     {
       label_screen = lv_label_create(lv_scr_act(), NULL);
       lv_label_set_text(label_screen, "Settings");
-      lv_obj_align(label_screen, NULL, LV_ALIGN_IN_TOP_LEFT, 0, 0);
+      lv_obj_align(label_screen, NULL, LV_ALIGN_IN_TOP_MID, 0, 0);
 
       btn1 = lv_btn_create(lv_scr_act(), NULL);
       lv_obj_set_event_cb(btn1, lv_event_handler);
